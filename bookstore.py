@@ -1,7 +1,7 @@
 import sqlite3
 from tabulate import tabulate
 
-
+# ===Book class===
 class Book:
     def __init__(self, book_id, title, author, qty):
         self.Id = book_id
