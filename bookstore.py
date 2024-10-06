@@ -142,7 +142,7 @@ def search_book():
             break
         except ValueError:
             print("Enter a valid search value")
-
+    # book_found is set to 'false'
     book_found = False
     if val == 1:
         for i in cursor.execute("SELECT * FROM books WHERE Id = ?", (search_val,)):
